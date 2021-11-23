@@ -1,0 +1,56 @@
+// colors
+$color-dark-primary: #000;
+$color-light-primary: #fff;
+$color-accident: #FFCE00;
+$color-warning: #DF2626;
+$color-light: #FBFBFB;
+
+// fonts
+$font-name: 'Roboto';
+$font-family: '#{$font-name}', 'Arial', sans-serif;
+$font-regular: 'Regular';
+$font-regular-weight: 400;
+$font-medium: 'Medium';
+$font-medium-weight: 500;
+$font-bold: 'Bold';
+$font-bold-weight: 700;
+
+// fonts settings
+$menu-font-size: 16px;
+$menu-font-line-height: 24px;
+$menu-text-color: $color-light;
+
+$title-h1-font-size-desktop: 100px;
+$title-h1-font-line-height-desktop: 110px;
+$title-h1-font-size-tablet: $title-h1-font-size-desktop;
+$title-h1-font-line-height-tablet: $title-h1-font-line-height-desktop;
+$title-h1-font-size-mobile: 47px;
+$title-h1-font-line-height-mobile: 56px;
+$title-h1-text-color: $color-dark-primary;
+
+$title-font-size-desktop: 64px;
+$title-font-line-height-desktop: 64px;
+$title-font-size-tablet: $title-font-size-desktop;
+$title-font-line-height-tablet: $title-font-line-height-desktop;
+$title-font-size-mobile: 30px;
+$title-font-line-height-mobile: 38px;
+$title-text-color: $color-dark-primary;
+
+
+// size
+$header-height-desktop: 84px;
+$header-height-tablet: $header-desktop-height;
+$header-height-mobile: 70px;
+
+$footer-height-desktop: 124px;
+$footer-height-tablet: 104px;
+$footer-height-mobile: 64px;
+
+// paddings
+$section-padding-desktop: 50px;
+$section-padding-tablet: 40px;
+$section-padding-mobile: 20px;
+
+
+// $base-color: #c6538c;
+// $border-dark: rgba($base-color, 0.88);
