@@ -39,7 +39,7 @@ $title-text-color: $color-dark-primary;
 
 // size
 $header-height-desktop: 84px;
-$header-height-tablet: $header-desktop-height;
+$header-height-tablet: $header-height-desktop;
 $header-height-mobile: 70px;
 
 $footer-height-desktop: 124px;
@@ -51,6 +51,11 @@ $section-padding-desktop: 50px;
 $section-padding-tablet: 40px;
 $section-padding-mobile: 20px;
 
+// screens
+$screen-desktop: 1440px;
+$screen-tablet: 768px;
+$screen-mobile: 320px;
 
 // $base-color: #c6538c;
 // $border-dark: rgba($base-color, 0.88);
+

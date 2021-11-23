@@ -11,3 +11,9 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
+
+section,
+div,
+ul, li, p, h1, h2, h3, h4, img, article, figure, header {
+  outline: 1px solid blue;
+}

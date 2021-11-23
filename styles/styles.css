@@ -371,16 +371,58 @@ template {
   text-rendering: optimizeLegibility;
 }
 
+section,
+div,
+ul, li, p, h1, h2, h3, h4, img, article, figure, header {
+  outline: 1px solid blue;
+}
+
 .page {
   width: 100vw;
   height: 100vh;
-  display: grid;
-  grid-template-rows: 70px repeat(5, 1fr) 64px;
 }
 
 .header {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #DF2626;
+}
+
+.header__container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 320px;
   display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 320px) {
+  .header__container {
+    padding: 20px;
+    min-height: 70px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__container {
+    padding: 40px;
+    min-height: 84px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .header__container {
+    padding: 50px;
+    min-height: 84px;
+  }
+}
+
+.header__logo {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
 }/*# sourceMappingURL=styles.css.map */
