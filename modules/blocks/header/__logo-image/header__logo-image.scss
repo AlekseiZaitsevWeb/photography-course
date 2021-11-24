@@ -1,0 +1,12 @@
+.header__logo-image {
+  @include size(30,30);
+  object-fit: cover;
+  object-position: center center;
+
+  @media screen and (min-width: $screen-tablet) {
+    @include size(36,36);
+  }
+  @media screen and (min-width: $screen-desktop) {
+    @include size(40,40);
+  }
+}

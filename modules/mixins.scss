@@ -1,0 +1,16 @@
+@mixin reset() {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin text($size, $height, $color: $color-dark-primary, $weight: $font-regular-weight) {
+  font-size: $size;
+  line-height: $height;
+  font-weight: $weight;
+  color: $color;
+}
+
+@mixin size($width, $height){
+  width: $width * 1px;
+  height: $height * 1px;
+}

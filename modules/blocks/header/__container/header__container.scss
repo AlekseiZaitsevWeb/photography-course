@@ -1,0 +1,23 @@
+.header__container {
+  @include reset();
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: $screen-desktop;
+  min-width: $screen-mobile;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: $section-padding-mobile;
+  padding-right: $section-padding-mobile;
+  min-height: $header-height-mobile;
+
+  @media screen and (min-width: $screen-tablet) {
+    padding-left: $section-padding-tablet;
+    padding-right: $section-padding-tablet;
+    min-height: $header-height-desktop;
+  }
+  @media screen and (min-width: $screen-desktop) {
+    padding-left: $section-padding-desktop;
+    padding-right: $section-padding-desktop;
+  }
+}

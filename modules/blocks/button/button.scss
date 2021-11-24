@@ -1,0 +1,10 @@
+.button {
+  @include reset();
+  border: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+}

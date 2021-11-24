@@ -7,7 +7,7 @@
   <meta name="keywords" content="Курс по фотографии">
   <meta name="author" content="Алексей Зайцев">
   <title>Курс по фотографии</title>
-  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="root">
   <!-- page -->
@@ -15,18 +15,25 @@
     <!-- header -->
     <header class="header">
       <div class="header__container">
-        <img class="header__logo" src="./images/logo.svg" alt="Курс по фотографии">
-        <!-- <ul class="header__lang-links flex-row">
-          <li><a href="" class="header__lang-link link header__lang-link_active">Ru</a></li>
-          <li><a href="" class="header__lang-link link">En</a></li>
-        </ul> -->
-        <button class="button" type="button"></button>
+        <a href="/" class="header__logo-link"><img class="header__logo-image" src="./images/logo.svg" alt="Курс по фотографии"></a>
+        <ul class="header__links">
+          <li><a href="#composition" class="header__link">Композиция</a></li>
+          <li><a href="#camera" class="header__link">Камера</a></li>
+          <li><a href="#search-for-orders" class="header__link">Поиск заказов</a></li>
+        </ul>
+        <button class="button button_type_menu-open" type="button"></button>
+        <button class="button button_type_menu-close disabled" type="button"></button>
       </div>
     </header>
 
+мод header_menu_active
+
     <!-- main -->
     <main class="content">
-
+      <button class="button button_type_primary" type="button">Подробнее</button>
+      <p style="font-weight: 400;">Подробнее</p>
+      <p style="font-weight: 500;">Подробнее</p>
+      <p style="font-weight: 700;">Подробнее</p>
     </main>
 
     <!-- footer -->
@@ -34,5 +41,10 @@
     </footer>
 
   </div>
+
+  <!-- Scripts -->
+  <script src="scripts/index.js" defer></script>
+
 </body>
 </html>
+
