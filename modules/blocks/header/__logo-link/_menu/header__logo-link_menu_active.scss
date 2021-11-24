@@ -1,0 +1,5 @@
+.header__logo-link_menu_active {
+  @media screen and (min-width: $screen-tablet) {
+    display: none;
+  }
+}

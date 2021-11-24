@@ -1,0 +1,17 @@
+.button_type_primary {
+  color: $color-dark-primary;
+  background-color: $color-light-primary;
+  border: 2px solid $color-dark-primary;
+  border-radius: 9999px;
+  @include size($button-width-mobile, $button-height-mobile);
+  @include text($text-button-font-size-mobile, $text-button-font-line-height-mobile);
+
+  &:hover {
+    font-weight: 500;
+  }
+
+  @media screen and (min-width: $screen-tablet) {
+    @include size($button-width-tablet, $button-height-tablet);
+    @include text($text-button-font-size-tablet, $text-button-font-line-height-tablet);
+  }
+}

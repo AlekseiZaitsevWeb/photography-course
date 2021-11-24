@@ -1,0 +1,9 @@
+.header__container_menu_active {
+  align-items: flex-start;
+  padding: 20px 20px 26px;
+
+  @media screen and (min-width: $screen-tablet) {
+    padding: 0 $section-padding-tablet;
+    align-items: center;
+  }
+}

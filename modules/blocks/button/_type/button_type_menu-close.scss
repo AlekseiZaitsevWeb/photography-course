@@ -1,0 +1,11 @@
+.button_type_menu-close {
+  width: 39px;
+  height: 39px;
+  background-image: url(/images/btn-menu-close.svg);
+  background-position: top -4px right -6px;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: $screen-tablet) {
+    background-position: top 0 right -6px;
+  }
+}

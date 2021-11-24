@@ -1,0 +1,9 @@
+.button_type_menu-open {
+  background-image: url(/images/btn-menu-open.svg);
+  width: 32px;
+  height: 23px;
+
+  @media screen and (min-width: $screen-desktop) {
+    display: none;
+  }
+}

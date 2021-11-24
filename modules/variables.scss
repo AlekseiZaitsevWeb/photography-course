@@ -1,0 +1,105 @@
+// colors
+$color-dark-primary: #000;
+$color-light-primary: #fff;
+$color-accident: #FFCE00;
+$color-warning: #DF2626;
+$color-light: #FBFBFB;
+
+// fonts
+$font-name: 'Roboto';
+$font-family: '#{$font-name}', 'Arial', sans-serif;
+$font-regular: 'Regular';
+$font-regular-weight: 400;
+$font-medium: 'Medium';
+$font-medium-weight: 500;
+$font-bold: 'Bold';
+$font-bold-weight: 700;
+
+// fonts settings
+$menu-font-size: 16px;
+$menu-font-line-height: 24px;
+$menu-text-color: $color-light;
+
+$title-h1-font-size-desktop: 100px;
+$title-h1-font-line-height-desktop: 110px;
+$title-h1-font-size-mobile: 47px;
+$title-h1-font-line-height-mobile: 56px;
+$title-h1-text-color: $color-dark-primary;
+
+$title-font-size-desktop: 64px;
+$title-font-line-height-desktop: 64px;
+$title-font-size-mobile: 30px;
+$title-font-line-height-mobile: 38px;
+$title-text-color: $color-dark-primary;
+
+$title-black-font-size-desktop: 122px;
+$title-black-font-line-height-desktop: 122px;
+$title-black-font-size-mobile: 48px;
+$title-black-font-line-height-mobile: 56px;
+$title-black-text-color: $color-light-primary;
+
+$title-warning-font-size-desktop: 120px;
+$title-warning-font-line-height-desktop: 120px;
+$title-warning-font-size-tablet: 100px;
+$title-warning-font-line-height-tablet: 100px;
+$title-warning-font-size-mobile: 48px;
+$title-warning-font-line-height-mobile: 50px;
+$title-warning-text-color: $color-light-primary;
+
+$text-primary-font-size-desktop: 18px;
+$text-primary-font-line-height-desktop: 28px;
+$text-primary-font-size-mobile: 14px;
+$text-primary-font-line-height-mobile: 18px;
+$text-primary-text-color: $color-dark-primary;
+
+$text-menu-font-size-desktop: 16px;
+$text-menu-font-line-height-desktop: 24px;
+$text-menu-text-color: $color-light;
+
+$text-intro-font-size-desktop: 20px;
+$text-intro-font-line-height-desktop: 28px;
+$text-intro-font-size-mobile: 14px;
+$text-intro-font-line-height-mobile: 18px;
+$text-intro-text-color: $color-dark-primary;
+
+$text-chapter-font-size-desktop: 18px;
+$text-chapter-font-line-height-desktop: 28px;
+$text-chapter-font-size-mobile: 14px;
+$text-chapter-font-line-height-mobile: 20px;
+$text-chapter-text-color: $color-dark-primary;
+$text-chapter-text-transform: uppercase;
+
+$text-button-font-size-tablet: 18px;
+$text-button-font-line-height-tablet: 28px;
+$text-button-font-size-mobile: 14px;
+$text-button-font-line-height-mobile: 28px;
+$text-button-text-color: $color-dark-primary;
+
+// button size
+$button-width-tablet: 228;
+$button-height-tablet: 49;
+$button-width-mobile: 169;
+$button-height-mobile: 40;
+
+// header size
+$header-height-desktop: 84px;
+$header-height-mobile: 70px;
+
+// footer size
+$footer-height-desktop: 124px;
+$footer-height-tablet: 104px;
+$footer-height-mobile: 64px;
+
+// section paddings
+$section-padding-desktop: 50px;
+$section-padding-tablet: 40px;
+$section-padding-mobile: 20px;
+
+// screens
+$screen-desktop: 1440px;
+$screen-tablet: 768px;
+$screen-mobile: 320px;
+
+// $base-color: #c6538c;
+// $border-dark: rgba($base-color, 0.88);
+
