@@ -1,0 +1,11 @@
+.intro__text {
+  @include reset();
+  @include text($text-intro-font-size-mobile, $text-intro-font-line-height-mobile);
+
+  @media screen and (min-width: $screen-tablet) {
+    @include text($text-intro-font-size-tablet, $text-intro-font-line-height-tablet);
+  }
+  @media screen and (min-width: $screen-desktop) {
+
+  }
+}

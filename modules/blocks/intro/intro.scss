@@ -1,0 +1,19 @@
+.intro {
+  background-color: $color-light-primary;
+  max-width: $screen-desktop;
+  min-width: $screen-mobile;
+  padding: $section-padding-mobile;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  column-gap: 76px;
+  align-items: flex-start;
+
+  @media screen and (min-width: $screen-tablet) {
+    padding: $section-padding-tablet;
+  }
+  @media screen and (min-width: $screen-desktop) {
+    padding: $section-padding-desktop;
+  }
+}
