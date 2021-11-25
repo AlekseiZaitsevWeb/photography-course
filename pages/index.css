@@ -19,9 +19,12 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header {
 }
 
 .page {
-  width: 100vw;
   height: 100vh;
   background-color: #fff;
+}
+
+.root__page {
+  width: 100%;
 }
 
 .disabled {
@@ -75,6 +78,7 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header {
   line-height: 28px;
   font-weight: 400;
   color: #000;
+  align-self: start;
 }
 .button_type_primary:hover {
   font-weight: 500;
@@ -87,6 +91,7 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header {
     line-height: 28px;
     font-weight: 400;
     color: #000;
+    align-self: end;
   }
 }
 
@@ -228,24 +233,39 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header {
   max-width: 1440px;
   min-width: 320px;
   padding: 20px;
+  padding-top: 14px;
   box-sizing: border-box;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
   display: grid;
-  grid-template-columns: repeat(2, minmax(-webkit-min-content, -webkit-max-content));
-  grid-template-columns: repeat(2, minmax(min-content, max-content));
-  grid-template-rows: repeat(3, minmax(-webkit-min-content, -webkit-max-content));
-  grid-template-rows: repeat(3, minmax(min-content, max-content));
-  -moz-column-gap: 76px;
-       column-gap: 76px;
-  align-items: flex-start;
+  grid-template-columns: repeat(1, minmax(-webkit-min-content, -webkit-max-content));
+  grid-template-columns: repeat(1, minmax(min-content, max-content));
+  grid-template-rows: repeat(3, -webkit-min-content) 1fr;
+  grid-template-rows: repeat(3, min-content) 1fr;
+  align-content: start;
+  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .intro {
     padding: 40px;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .intro {
+    grid-template-columns: repeat(2, minmax(-webkit-min-content, -webkit-max-content));
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, -webkit-min-content) 1fr;
+    grid-template-rows: repeat(2, min-content) 1fr;
+    justify-content: space-between;
   }
 }
 @media screen and (min-width: 1440px) {
   .intro {
     padding: 50px;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
   }
 }
 
@@ -256,6 +276,8 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header {
   line-height: 56px;
   font-weight: 400;
   color: #000;
+  align-self: start;
+  margin-bottom: 60px;
 }
 @media screen and (min-width: 768px) {
   .intro__title {
@@ -263,13 +285,43 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header {
     line-height: 110px;
     font-weight: 400;
     color: #000;
+    max-width: none;
+    min-width: none;
+    max-width: 688px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .intro__title {
+    max-width: 642px;
+    min-width: 624px;
+  }
+}
+
 .intro__image {
   display: block;
-  grid-column-start: 2;
-  grid-row-start: 1;
-  grid-row-end: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .intro__image {
+    max-width: 688px;
+    min-width: 500px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .intro__image {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .intro__image {
+    max-width: 642px;
+  }
 }
 
 .intro__text {
@@ -279,6 +331,9 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header {
   line-height: 18px;
   font-weight: 400;
   color: #000;
+  align-self: start;
+  max-width: 469px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .intro__text {
@@ -286,5 +341,6 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header {
     line-height: 28px;
     font-weight: 400;
     color: #000;
+    margin-bottom: 60px;
   }
 }/*# sourceMappingURL=index.css.map */

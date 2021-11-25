@@ -5,6 +5,7 @@
   border-radius: 9999px;
   @include size($button-width-mobile, $button-height-mobile);
   @include text($text-button-font-size-mobile, $text-button-font-line-height-mobile);
+  align-self: start;
 
   &:hover {
     font-weight: 500;
@@ -13,5 +14,6 @@
   @media screen and (min-width: $screen-tablet) {
     @include size($button-width-tablet, $button-height-tablet);
     @include text($text-button-font-size-tablet, $text-button-font-line-height-tablet);
+    align-self: end;
   }
 }
