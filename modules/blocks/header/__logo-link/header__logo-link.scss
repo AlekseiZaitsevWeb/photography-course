@@ -1,4 +1,9 @@
 .header__logo-link {
   box-sizing: border-box;
   display: inline-flex;
+  transition: 1s ease;
+
+  &:hover {
+    transform: rotate(-360deg);
+  }
 }

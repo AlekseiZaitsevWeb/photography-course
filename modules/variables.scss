@@ -20,8 +20,8 @@ $menu-font-size: 16px;
 $menu-font-line-height: 24px;
 $menu-text-color: $color-light;
 
-$title-h1-font-size-desktop: 100px;
-$title-h1-font-line-height-desktop: 110px;
+$title-h1-font-size-tablet: 100px;
+$title-h1-font-line-height-tablet: 110px;
 $title-h1-font-size-mobile: 47px;
 $title-h1-font-line-height-mobile: 56px;
 $title-h1-text-color: $color-dark-primary;
@@ -56,8 +56,8 @@ $text-menu-font-size-desktop: 16px;
 $text-menu-font-line-height-desktop: 24px;
 $text-menu-text-color: $color-light;
 
-$text-intro-font-size-desktop: 20px;
-$text-intro-font-line-height-desktop: 28px;
+$text-intro-font-size-tablet: 20px;
+$text-intro-font-line-height-tablet: 28px;
 $text-intro-font-size-mobile: 14px;
 $text-intro-font-line-height-mobile: 18px;
 $text-intro-text-color: $color-dark-primary;
@@ -97,6 +97,7 @@ $section-padding-mobile: 20px;
 
 // screens
 $screen-desktop: 1440px;
+$screen-desktop-tablet: 1200px;
 $screen-tablet: 768px;
 $screen-mobile: 320px;
 

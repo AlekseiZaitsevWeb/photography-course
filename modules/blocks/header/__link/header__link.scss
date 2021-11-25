@@ -4,6 +4,6 @@
   @include text($text-menu-font-size-desktop, $text-menu-font-line-height-desktop, $text-menu-text-color);
 
   &:hover {
-    font-weight: 500;
+    font-weight: $font-medium-weight;
   }
 }

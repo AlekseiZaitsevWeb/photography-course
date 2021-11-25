@@ -7,6 +7,7 @@
 
 @import "../modules/blocks/root/root.scss";
 @import "../modules/blocks/page/page.scss";
+@import "../modules/blocks/root/__page/root__page.scss";
 @import "../modules/blocks/disabled/disabled.scss";
 
 @import "../modules/blocks/button/button.scss";
@@ -24,5 +25,12 @@
 @import "../modules/blocks/header/__links/header__links.scss";
 @import "../modules/blocks/header/__links/_menu/header__links_menu_active.scss";
 @import "../modules/blocks/header/__link/header__link.scss";
+
+@import "../modules/blocks/content/content.scss";
+@import "../modules/blocks/content/__intro/content__intro.scss";
+@import "../modules/blocks/intro/intro.scss";
+@import "../modules/blocks/intro/__title/intro__title.scss";
+@import "../modules/blocks/intro/__image/intro__image.scss";
+@import "../modules/blocks/intro/__text/intro__text.scss";
 
            
