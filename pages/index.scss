@@ -27,7 +27,7 @@
 
 @import "../blocks/content/content.scss";
 @import "../blocks/content/__intro/content__intro.scss";
-@import "../blocks/content/_composition/content_composition.scss";
+@import "../blocks/content/__rules/content__rules.scss";
 
 @import "../blocks/intro/intro.scss";
 @import "../blocks/intro/__title/intro__title.scss";
@@ -35,6 +35,7 @@
 @import "../blocks/intro/__text/intro__text.scss";
 
 @import "../blocks/composition/composition.scss";
+@import "../blocks/composition/__container/composition__container.scss";
 @import "../blocks/composition/__chapter/composition__chapter.scss";
 @import "../blocks/composition/__title/composition__title.scss";
 @import "../blocks/composition/__image/composition__image.scss";
@@ -42,6 +43,12 @@
 @import "../blocks/composition/__text/composition__text.scss";
 @import "../blocks/composition/__text/_type/composition__text_type_bold.scss";
 
+@import "../blocks/rules/rules.scss";
+@import "../blocks/rules/__container/rules__container.scss";
+@import "../blocks/rules/__items/rules__items.scss";
+@import "../blocks/rules/__item/rules__item.scss";
+@import "../blocks/rules/__item-text/rules__item-text.scss";
+
 @import "../blocks/section/section.scss";
 @import "../blocks/section/_place/section_place_composition.scss";
-                             
+                 

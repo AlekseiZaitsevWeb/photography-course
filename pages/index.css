@@ -19,7 +19,6 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
 }
 
 .page {
-  height: 100vh;
   background-color: #fff;
 }
 
@@ -228,7 +227,7 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
   margin: 0 auto;
 }
 
-.content_composition {
+.content__rules {
   margin: 0 auto;
 }
 
@@ -312,6 +311,10 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
 
 .composition {
   background-color: #FFCE00;
+}
+
+.composition__container {
+  margin: 0 auto;
 }
 
 .composition__chapter {
@@ -423,6 +426,105 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
 }
 @media screen and (min-width: 768px) {
   .composition__text {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #000;
+  }
+}
+
+.composition__text_type_bold {
+  font-weight: 700;
+}
+
+.rules {
+  background-color: #FFCE00;
+}
+
+.rules__container {
+  margin: 0 auto;
+  background-color: #FFCE00;
+  max-width: 1440px;
+  min-width: 320px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .rules__container {
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .rules__container {
+    padding: 50px;
+  }
+}
+
+.rules__items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 688px;
+}
+@media screen and (min-width: 768px) {
+  .rules__items {
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .rules__items {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+
+.rules__item {
+  display: flex;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #000;
+}
+.rules__item:first-child {
+  padding-top: 40px;
+}
+.rules__item:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+@media screen and (min-width: 768px) {
+  .rules__item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .rules__item:first-child {
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .rules__item {
+    width: 291px;
+    padding: 0;
+    border-bottom: none;
+  }
+}
+
+.rules__item-text {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #000;
+}
+@media screen and (min-width: 768px) {
+  .rules__item-text {
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;

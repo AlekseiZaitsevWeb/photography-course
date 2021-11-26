@@ -1,0 +1,30 @@
+.rules__item {
+  display: flex;
+  align-items: center;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid $color-dark-primary;
+
+  &:first-child{
+    padding-top: 40px;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  @media screen and (min-width: $screen-tablet) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    &:first-child{
+      padding-top: 0;
+    }
+  }
+
+  @media screen and (min-width: $screen-desktop-tablet) {
+    width: 291px;
+    padding: 0;
+    border-bottom: none;
+  }
+}
