@@ -1,0 +1,8 @@
+.header__logo-link {
+  box-sizing: border-box;
+  display: inline-flex;
+  transition: 1s ease;
+}
+.header__logo-link:hover {
+  transform: rotate(-360deg);
+}/*# sourceMappingURL=header__logo-link.css.map */

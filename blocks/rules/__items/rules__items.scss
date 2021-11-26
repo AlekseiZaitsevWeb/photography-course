@@ -1,0 +1,17 @@
+.rules__items {
+  @include reset();
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 688px;
+
+  @media screen and (min-width: $screen-tablet) {
+    padding-top: 0;
+  }
+  @media screen and (min-width: $screen-desktop-tablet) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+  }
+}

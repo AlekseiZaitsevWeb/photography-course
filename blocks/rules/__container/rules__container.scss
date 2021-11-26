@@ -1,0 +1,17 @@
+.rules__container {
+  margin: 0 auto;
+  background-color: $color-accident;
+  max-width: $screen-desktop;
+  min-width: $screen-mobile;
+  padding: $section-padding-mobile;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+
+  @media screen and (min-width: $screen-tablet) {
+    padding: $section-padding-tablet;
+  }
+  @media screen and (min-width: $screen-desktop) {
+    padding: $section-padding-desktop;
+  }
+}

@@ -1,15 +1,11 @@
 .intro__text {
   @include reset();
   @include text($text-intro-font-size-mobile, $text-intro-font-line-height-mobile);
-  align-self: start;
   max-width: 469px;
   margin-bottom: 30px;
 
   @media screen and (min-width: $screen-tablet) {
     @include text($text-intro-font-size-tablet, $text-intro-font-line-height-tablet);
     margin-bottom: 60px;
-  }
-  @media screen and (min-width: $screen-desktop) {
-
   }
 }

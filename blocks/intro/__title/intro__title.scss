@@ -1,0 +1,15 @@
+.intro__title {
+  @include reset();
+  @include text($title-h1-font-size-mobile, $title-h1-font-line-height-mobile);
+  margin-bottom: 60px;
+
+  @media screen and (min-width: $screen-tablet) {
+    @include text($title-h1-font-size-tablet, $title-h1-font-line-height-tablet);
+    min-width: 580px;
+    max-width: 688px;
+  }
+  @media screen and (min-width: $screen-desktop) {
+    max-width: 642px;
+    min-width: 624px;
+  }
+}

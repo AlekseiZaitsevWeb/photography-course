@@ -1,0 +1,11 @@
+.composition__text-block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 36px;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: $screen-tablet) {
+    row-gap: 20px;
+    margin-bottom: 60px;
+  }
+}
