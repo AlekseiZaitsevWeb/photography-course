@@ -1,13 +1,11 @@
-.intro {
-  background-color: $color-light-primary;
+.section {
   max-width: $screen-desktop;
   min-width: $screen-mobile;
   padding: $section-padding-mobile;
-  padding-top: 14px;
   box-sizing: border-box;
   column-gap: $section-padding-mobile;
   display: grid;
-  grid-template-columns: repeat(1, minmax(min-content, max-content));
+  grid-template-columns: 1, minmax(min-content, max-content);
   grid-template-rows: repeat(3, min-content) 1fr;
   align-content: start;
   justify-content: center;
@@ -17,7 +15,7 @@
     column-gap: $section-padding-tablet;
   }
   @media screen and (min-width: $screen-desktop-tablet) {
-    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, min-content) 1fr;
     justify-content: space-between;
   }

@@ -1,0 +1,9 @@
+.composition__text {
+  @include reset();
+  @include text($text-primary-font-size-mobile, $text-primary-font-line-height-mobile);
+  max-width: 400px;
+
+  @media screen and (min-width: $screen-tablet) {
+    @include text($text-primary-font-size-tablet, $text-primary-font-line-height-tablet);
+  }
+}

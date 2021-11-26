@@ -1,21 +1,20 @@
-.intro__title {
+.composition__title {
   @include reset();
-  @include text($title-h1-font-size-mobile, $title-h1-font-line-height-mobile);
+  @include text($title-font-size-mobile, $title-font-line-height-mobile);
   align-self: start;
   margin-bottom: 60px;
+  max-width: 280px;
 
   @media screen and (min-width: $screen-tablet) {
-    @include text($title-h1-font-size-tablet, $title-h1-font-line-height-tablet);
-    max-width: none;
-    min-width: none;
-    max-width: 688px;
+    @include text($title-font-size-tablet, $title-font-line-height-tablet);
+    min-width: 580px;
+    max-width: 500px;
   }
   @media screen and (min-width: $screen-desktop-tablet) {
-
+    margin-bottom: 100px;
   }
   @media screen and (min-width: $screen-desktop) {
     max-width: 642px;
     min-width: 624px;
   }
-
 }
