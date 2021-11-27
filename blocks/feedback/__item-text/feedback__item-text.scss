@@ -1,0 +1,10 @@
+.feedback__item-text {
+  @include reset();
+  @include text(24px, 26px, $color-light-primary);
+  padding-bottom: 30px;
+
+  @media screen and (min-width: $screen-tablet) {
+    @include text(43px, 43px, $color-light-primary);
+    padding-bottom: 60px;
+  }
+}

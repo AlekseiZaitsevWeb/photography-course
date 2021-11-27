@@ -1,0 +1,23 @@
+.feedback__items {
+  @include reset();
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 688px;
+  padding-top: 20px;
+
+  @media screen and (min-width: $screen-tablet) {
+    padding-top: 40px;
+  }
+  @media screen and (min-width: $screen-desktop-tablet) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: $section-padding-tablet;
+    width: 100%;
+    padding-top: 80px;
+  }
+  @media screen and (min-width: $screen-desktop) {
+    column-gap: $section-padding-desktop;
+
+  }
+}

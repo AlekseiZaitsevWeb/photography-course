@@ -1,0 +1,33 @@
+.feedback__item {
+  display: grid;
+  grid-template-rows: 1fr repeat(2, min-content);
+  border-bottom: 1px solid $color-light-primary;
+
+  &:first-child {
+    padding-bottom: 30px;
+  }
+
+  &:last-child {
+    padding-top: 30px;
+    border: none;
+  }
+
+  @media screen and (min-width: $screen-tablet) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  @media screen and (min-width: $screen-desktop-tablet) {
+    border: none;
+    padding-top: 0;
+    &:last-child {
+      padding-top: 0;
+    }
+    &:first-child {
+      padding-bottom: 0;
+    }
+  }
+}
