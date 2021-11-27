@@ -55,6 +55,13 @@
 @import "../blocks/camera/__image/camera__image.scss";
 @import "../blocks/camera/__chapter-feedback/camera__chapter-feedback.scss";
 
+@import "../blocks/feedback/feedback.scss";
+@import "../blocks/feedback/__container/feedback__container.scss";
+@import "../blocks/feedback/__items/feedback__items.scss";
+@import "../blocks/feedback/__item/feedback__item.scss";
+@import "../blocks/feedback/__item-text/feedback__item-text.scss";
+@import "../blocks/feedback/__item-name/feedback__item-name.scss";
+@import "../blocks/feedback/__item-nick/feedback__item-nick.scss";
 
 @import "../blocks/section/section.scss";
 @import "../blocks/section/_place/section_place_composition.scss";

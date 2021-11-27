@@ -1,0 +1,8 @@
+.feedback__item-nick {
+  @include reset();
+  @include text(12px, 12px, $color-light-primary);
+
+  @media screen and (min-width: $screen-tablet) {
+    @include text(14px, 24px, $color-light-primary);
+  }
+}
