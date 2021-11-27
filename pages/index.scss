@@ -27,7 +27,6 @@
 
 @import "../blocks/content/content.scss";
 @import "../blocks/content/__intro/content__intro.scss";
-@import "../blocks/content/__rules/content__rules.scss";
 
 @import "../blocks/intro/intro.scss";
 @import "../blocks/intro/__title/intro__title.scss";
@@ -49,6 +48,16 @@
 @import "../blocks/rules/__item/rules__item.scss";
 @import "../blocks/rules/__item-text/rules__item-text.scss";
 
+@import "../blocks/camera/camera.scss";
+@import "../blocks/camera/__container/camera__container.scss";
+@import "../blocks/camera/__chapter/camera__chapter.scss";
+@import "../blocks/camera/__title/camera__title.scss";
+@import "../blocks/camera/__image/camera__image.scss";
+@import "../blocks/camera/__chapter-feedback/camera__chapter-feedback.scss";
+
+
 @import "../blocks/section/section.scss";
 @import "../blocks/section/_place/section_place_composition.scss";
-                 
+@import "../blocks/section/_place/section_place_camera.scss";
+
+           

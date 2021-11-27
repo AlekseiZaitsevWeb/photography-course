@@ -1,0 +1,13 @@
+.camera__chapter-feedback {
+  @include reset();
+  @include text($text-chapter-font-size-mobile, $text-chapter-font-line-height-mobile, $color-light-primary);
+  text-transform: $text-chapter-text-transform;
+  align-self: start;
+
+  @media screen and (min-width: $screen-tablet) {
+    @include text($text-chapter-font-size-tablet, $text-chapter-font-line-height-tablet, $color-light-primary);
+    align-self: end;
+  }
+  @media screen and (min-width: $screen-desktop) {
+  }
+}

@@ -1,0 +1,20 @@
+.camera__title {
+  @include reset();
+  @include text($title-black-font-size-mobile, $title-black-font-line-height-mobile, $title-black-text-color);
+  align-self: start;
+  margin-bottom: 60px;
+  max-width: 280px;
+
+  @media screen and (min-width: $screen-tablet) {
+    @include text($title-black-font-size-tablet, $title-black-font-line-height-tablet, $title-black-text-color);
+    min-width: 580px;
+    max-width: 688px;
+  }
+  @media screen and (min-width: $screen-desktop-tablet) {
+    margin-bottom: 100px;
+  }
+  @media screen and (min-width: $screen-desktop) {
+    max-width: 642px;
+    min-width: 624px;
+  }
+}

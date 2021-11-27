@@ -227,10 +227,6 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
   margin: 0 auto;
 }
 
-.content__rules {
-  margin: 0 auto;
-}
-
 .intro {
   background-color: #fff;
   padding-top: 14px;
@@ -532,6 +528,123 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
   }
 }
 
+.camera {
+  background-color: #000;
+}
+
+.camera__container {
+  margin: 0 auto;
+}
+
+.camera__chapter {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .camera__chapter {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .camera__chapter {
+    margin-bottom: 50px;
+  }
+}
+
+.camera__title {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 400;
+  color: #fff;
+  align-self: start;
+  margin-bottom: 60px;
+  max-width: 280px;
+}
+@media screen and (min-width: 768px) {
+  .camera__title {
+    font-size: 122px;
+    line-height: 122px;
+    font-weight: 400;
+    color: #fff;
+    min-width: 580px;
+    max-width: 688px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .camera__title {
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .camera__title {
+    max-width: 642px;
+    min-width: 624px;
+  }
+}
+
+.camera__image {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  width: 100%;
+  height: 268px;
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .camera__image {
+    max-width: 688px;
+    min-width: 500px;
+    height: 656px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .camera__image {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    margin-bottom: 0;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .camera__image {
+    max-width: 642px;
+  }
+}
+
+.camera__chapter-feedback {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  align-self: start;
+}
+@media screen and (min-width: 768px) {
+  .camera__chapter-feedback {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #fff;
+    align-self: end;
+  }
+}
 .section {
   max-width: 1440px;
   min-width: 320px;
@@ -573,4 +686,9 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
 .section_place_composition {
   grid-template-rows: repeat(3, -webkit-min-content) 1fr;
   grid-template-rows: repeat(3, min-content) 1fr;
+}
+
+.section_place_camera {
+  grid-template-rows: repeat(2, -webkit-min-content) 1fr;
+  grid-template-rows: repeat(2, min-content) 1fr;
 }/*# sourceMappingURL=index.css.map */
