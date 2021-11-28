@@ -32,10 +32,10 @@
         <h1 class="intro__title">Курс по фотографии</h1>
         <img class="intro__image" src="./images/coniferous-forest.jpg" alt="Хвойный лес">
         <p class="intro__text">Фотография в природных условиях, уроки по композиции и по пользованию камерой.</p>
-        <button class="button button_type_primary" type="button">Подробнее</button>
+        <a href="#composition" class="button button_type_primary" type="button">Подробнее</a>
       </section>
       <!-- composition -->
-      <section class="composition">
+      <section class="composition" id="composition">
         <div class="composition__container section section_place_composition">
           <span class="section__chapter">Композиция</span>
           <h2 class="composition__title">Изучите композицию</h2>
@@ -44,7 +44,7 @@
             <p class="composition__text">Вы изучите гармоничное размещение всех элементов изображения на <span class="composition__text composition__text_type_bold">снимке</span>.</p>
             <p class="composition__text">Изучите композицию интуитивную и какие-то определённые законы.</p>
           </div>
-          <button class="button button_type_primary" type="button">Записаться!</button>
+          <a href="#action" class="button button_type_primary" type="button">Записаться!</a>
         </div>
       </section>
       <!-- rules -->
@@ -59,7 +59,7 @@
         </div>
       </section>
       <!-- camera -->
-      <section class="camera">
+      <section class="camera" id="camera">
         <div class="camera__container section section_place_camera">
           <span class="section__chapter section__chapter_color_light">камера</span>
           <h2 class="camera__title">Настройка Съемка Обработка</h2>
@@ -85,19 +85,20 @@
         </div>
       </section>
       <!-- search -->
-      <section class="section search content__section section_place_search">
+      <section class="section search content__section section_place_search" id="search-for-orders">
         <span class="section__chapter">поиск заказов</span>
         <h2 class="search__title">Научим находить заказы!</h2>
         <img class="search__image" src="./images/tree.jpg" alt="Дерево">
         <div class="search__text-block">
           <p class="search__text">Мы научим вас искать заказы на всяких фриланс биржах, а когда вы сделаете крутое портфолио, мы поможем найти постоянную работу.</p>
-          <button class="button button_type_primary button_place_search" type="button">Записаться!</button>
+          <a href="#action" class="button button_type_primary button_place_search" type="button">Записаться!</a>
         </div>
       </section>
       <!-- action -->
-      <section class="action">
+      <section class="action" id="action">
         <div class="action__container">
           <div class="action__content">
+            <span class="action__line"></span>
             <h2 class="action__title">Записаться! Сейчас!</h2>
             <form class="action__form" name="action" action="#" id="action-form">
               <input type="email" name="email" id="email" class="action__input-text" placeholder="Ваша почта">

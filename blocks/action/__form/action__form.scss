@@ -1,4 +1,6 @@
 .action__form {
+  display: inline-flex;
+
   @media screen and (min-width: $screen-desktop-tablet) {
     padding-left: 179px;
   }

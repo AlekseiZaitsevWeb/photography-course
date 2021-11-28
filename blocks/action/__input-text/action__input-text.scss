@@ -1,3 +1,51 @@
 .action__input-text {
-  
+  padding: 13px 20px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 11px;
+  line-height: 24px;
+  background-color: $color-light-primary;
+  border: 2px solid $color-dark-primary;
+  border-right: 0;
+  border-radius: 8px 0px 0px 8px;
+  color: $color-dark-primary;
+  letter-spacing: 0.375px;
+  height: 50px;
+  width: 100%;
+  max-width: 348px;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::-webkit-input-placeholder {
+    color: $color-dark-primary;
+    letter-spacing: 0.375px;
+  }
+
+  &::-moz-placeholder {
+    color: $color-dark-primary;
+    letter-spacing: 0.375px;
+  }
+
+  &::-ms-input-placeholder {
+    color: $color-dark-primary;
+    letter-spacing: 0.375px;
+  }
+
+  &::placeholder {
+    color: $color-dark-primary;
+    letter-spacing: 0.375px;
+  }
+
+  @media screen and (min-width: $screen-tablet) {
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: $screen-desktop-tablet) {
+    width: 348px;
+  }
+
+  @media screen and (min-width: $screen-desktop) {
+  }
 }
