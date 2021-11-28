@@ -1,0 +1,21 @@
+.search__title {
+  @include reset();
+  @include text($title-search-font-size-mobile, $title-search-font-line-height-mobile);
+  align-self: start;
+  margin-bottom: 60px;
+  max-width: 280px;
+
+  @media screen and (min-width: $screen-tablet) {
+    @include text($title-search-font-size-tablet, $title-search-font-line-height-tablet);
+    min-width: 580px;
+    max-width: 500px;
+  }
+  @media screen and (min-width: $screen-desktop-tablet) {
+    margin-bottom: 106px;
+    grid-column-start: 1;
+  }
+  @media screen and (min-width: $screen-desktop) {
+    max-width: 642px;
+    min-width: 624px;
+  }
+}

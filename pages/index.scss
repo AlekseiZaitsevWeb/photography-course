@@ -12,8 +12,8 @@
 @import "../blocks/button/button.scss";
 @import "../blocks/button/_type/button_type_menu-open.scss";
 @import "../blocks/button/_type/button_type_menu-close.scss";
-
 @import "../blocks/button/_type/button_type_primary.scss";
+@import "../blocks/button/_place/button_place_search.scss";
 
 @import "../blocks/header/header.scss";
 @import "../blocks/header/__container/header__container.scss";
@@ -26,7 +26,7 @@
 @import "../blocks/header/__link/header__link.scss";
 
 @import "../blocks/content/content.scss";
-@import "../blocks/content/__intro/content__intro.scss";
+@import "../blocks/content/__section/content__section.scss";
 
 @import "../blocks/intro/intro.scss";
 @import "../blocks/intro/__title/intro__title.scss";
@@ -63,8 +63,18 @@
 @import "../blocks/feedback/__item-name/feedback__item-name.scss";
 @import "../blocks/feedback/__item-nick/feedback__item-nick.scss";
 
+@import "../blocks/search/search.scss";
+@import "../blocks/search/__title/search__title.scss";
+@import "../blocks/search/__image/search__image.scss";
+@import "../blocks/search/__text-block/search__text-block.scss";
+@import "../blocks/search/__text/search__text.scss";
+
 @import "../blocks/section/section.scss";
 @import "../blocks/section/_place/section_place_composition.scss";
 @import "../blocks/section/_place/section_place_camera.scss";
+@import "../blocks/section/_place/section_place_search.scss";
+@import "../blocks/section/__chapter/section__chapter.scss";
+@import "../blocks/section/__chapter/_color/section__chapter_color_light.scss";
 
-                       
+
+             

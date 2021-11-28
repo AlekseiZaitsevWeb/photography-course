@@ -1,0 +1,19 @@
+.search__image {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: $screen-tablet) {
+    max-width: 688px;
+    min-width: 500px;
+  }
+  @media screen and (min-width: $screen-desktop-tablet) {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    margin-bottom: 0;
+  }
+  @media screen and (min-width: $screen-desktop) {
+    max-width: 642px;
+  }
+}

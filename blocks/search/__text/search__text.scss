@@ -1,0 +1,10 @@
+.search__text {
+  @include reset();
+  @include text($text-search-font-size-mobile, $text-search-font-line-height-mobile);
+  margin-bottom: 30px;
+
+  @media screen and (min-width: $screen-tablet) {
+    @include text($text-search-font-size-tablet, $text-search-font-line-height-tablet);
+    margin-bottom: 60px;
+  }
+}
