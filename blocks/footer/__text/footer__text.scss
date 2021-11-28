@@ -1,0 +1,8 @@
+.footer__text {
+  @include reset();
+  @include text($text-footer-font-size-mobile, $text-footer-font-line-height-mobile, $text-footer-text-color, $text-footer-font-weight);
+
+  @media screen and (min-width: $screen-tablet) {
+    @include text($text-footer-font-size-tablet, $text-footer-font-line-height-tablet, $text-footer-text-color, $text-footer-font-weight);
+  }
+}

@@ -1,0 +1,12 @@
+.action__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @media screen and (min-width: $screen-tablet) {
+    width: 688px;
+  }
+  @media screen and (min-width: $screen-desktop-tablet) {
+    width: 100%;
+  }
+}

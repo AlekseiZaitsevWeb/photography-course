@@ -38,13 +38,13 @@ $title-black-font-size-mobile: 48px;
 $title-black-font-line-height-mobile: 56px;
 $title-black-text-color: $color-light-primary;
 
-$title-warning-font-size-desktop: 120px;
-$title-warning-font-line-height-desktop: 120px;
-$title-warning-font-size-tablet: 100px;
-$title-warning-font-line-height-tablet: 100px;
-$title-warning-font-size-mobile: 48px;
-$title-warning-font-line-height-mobile: 50px;
-$title-warning-text-color: $color-light-primary;
+$title-action-font-size-desktop: 120px;
+$title-action-font-line-height-desktop: 120px;
+$title-action-font-size-tablet: 100px;
+$title-action-font-line-height-tablet: 100px;
+$title-action-font-size-mobile: 48px;
+$title-action-font-line-height-mobile: 50px;
+$title-action-text-color: $color-light-primary;
 
 $title-search-font-size-tablet: 64px;
 $title-search-font-line-height-tablet: 64px;
@@ -86,6 +86,14 @@ $text-search-font-line-height-tablet: 28px;
 $text-search-font-size-mobile: 14px;
 $text-search-font-line-height-mobile: 18px;
 $text-search-text-color: $color-dark-primary;
+
+$text-footer-font-size-tablet: 15px;
+$text-footer-font-line-height-tablet: 24px;
+$text-footer-font-size-mobile: 12px;
+$text-footer-font-line-height-mobile: 24px;
+$text-footer-font-weight: $font-bold-weight;
+$text-footer-text-color: $color-light-primary;
+
 
 // button size
 $button-width-tablet: 228;
