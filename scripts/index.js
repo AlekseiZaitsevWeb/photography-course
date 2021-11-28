@@ -4,6 +4,11 @@ const headerContainer = document.querySelector('.header__container');
 const headerLogo = document.querySelector('.header__logo-link');
 const headerLinks = document.querySelector('.header__links');
 
+const btnAction = document.querySelector('.action__button');
+const inpAction = document.querySelector('.action__input-text');
+const root = document.querySelector('.root');
+
+
 function openMenu() {
 
   if(!btnMenuOpen.classList.contains('disabled'))
@@ -42,5 +47,30 @@ function closeMenu() {
 
 }
 
+function changeBtnText() {
+  btnAction.style.fontWeight = 500;
+  console.log(btnAction.style.font.weight);
+  if(inpAction.value.length === 0) {
+    btnAction.textContent = 'Записаться!';
+  }
+}
+
+function checkInputFocus(event){
+  if(inpAction !== document.activeElement){
+    btnAction.style.fontWeight = 400;
+  }
+}
+
+function submitBtn() {
+  if(inpAction.value.length > 0 && (inpAction.value.indexOf('@') !== -1 && inpAction.value.indexOf('.') !== -1) && btnAction.textContent === 'Записаться!') {
+    btnAction.textContent = 'Спасибо!';
+    btnAction.style.fontWeight = 400;
+  }
+}
+
 btnMenuOpen.addEventListener('click', openMenu);
 btnMenuClose.addEventListener('click', closeMenu);
+
+inpAction.addEventListener('focus', changeBtnText);
+inpAction.addEventListener('keyup', changeBtnText);
+root.addEventListener('click', checkInputFocus);
