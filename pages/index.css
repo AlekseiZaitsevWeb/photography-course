@@ -12,12 +12,6 @@
   text-rendering: optimizeLegibility;
 }
 
-section,
-div,
-ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
-  outline: 1px solid blue;
-}
-
 .page {
   background-color: #fff;
 }
@@ -78,6 +72,10 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
   font-weight: 400;
   color: #000;
   align-self: start;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .button_type_primary:hover {
   font-weight: 500;
@@ -919,6 +917,7 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
 @media screen and (min-width: 1440px) {
   .action__container {
     padding: 50px;
+    padding-bottom: 36px;
   }
 }
 
@@ -935,6 +934,19 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
 @media screen and (min-width: 1280px) {
   .action__content {
     width: 100%;
+  }
+}
+
+.action__line {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .action__line {
+    display: none;
   }
 }
 
@@ -987,9 +999,77 @@ ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
   }
 }
 
+.action__form {
+  display: inline-flex;
+}
 @media screen and (min-width: 1280px) {
   .action__form {
     padding-left: 179px;
+  }
+}
+
+.action__input-text {
+  padding: 13px 20px;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 11px;
+  line-height: 24px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-right: 0;
+  border-radius: 8px 0px 0px 8px;
+  color: #000;
+  letter-spacing: 0.375px;
+  height: 50px;
+  width: 100%;
+  max-width: 348px;
+}
+.action__input-text:focus {
+  outline: none;
+}
+.action__input-text::-moz-placeholder {
+  color: #000;
+  letter-spacing: 0.375px;
+}
+.action__input-text:-ms-input-placeholder {
+  color: #000;
+  letter-spacing: 0.375px;
+}
+.action__input-text::placeholder {
+  color: #000;
+  letter-spacing: 0.375px;
+}
+@media screen and (min-width: 768px) {
+  .action__input-text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .action__input-text {
+    width: 348px;
+  }
+}
+.action__button {
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  border-radius: 0px 8px 8px 0px;
+  padding: 13px 20px;
+  font-size: 11px;
+  line-height: 24px;
+  color: #000;
+  letter-spacing: 0.375px;
+  cursor: pointer;
+  height: 50px;
+  width: 106px;
+}
+.action__button:hover {
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .action__button {
+    font-size: 14px;
+    width: 205px;
   }
 }
 

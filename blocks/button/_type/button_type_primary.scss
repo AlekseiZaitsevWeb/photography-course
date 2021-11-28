@@ -6,9 +6,13 @@
   @include size($button-width-mobile, $button-height-mobile);
   @include text($text-button-font-size-mobile, $text-button-font-line-height-mobile);
   align-self: start;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &:hover {
-    font-weight: 500;
+    font-weight: $font-medium-weight;
   }
 
   @media screen and (min-width: $screen-tablet) {
