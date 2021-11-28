@@ -69,6 +69,18 @@
 @import "../blocks/search/__text-block/search__text-block.scss";
 @import "../blocks/search/__text/search__text.scss";
 
+@import "../blocks/action/action.scss";
+@import "../blocks/action/__container/action__container.scss";
+@import "../blocks/action/__content/action__content.scss";
+@import "../blocks/action/__title/action__title.scss";
+@import "../blocks/action/__form/action__form.scss";
+@import "../blocks/action/__input-text/action__input-text.scss";
+@import "../blocks/action/__button/action__button.scss";
+
+@import "../blocks/footer/footer.scss";
+@import "../blocks/footer/__container/footer__container.scss";
+@import "../blocks/footer/__text/footer__text.scss";
+
 @import "../blocks/section/section.scss";
 @import "../blocks/section/_place/section_place_composition.scss";
 @import "../blocks/section/_place/section_place_camera.scss";
@@ -77,4 +89,5 @@
 @import "../blocks/section/__chapter/_color/section__chapter_color_light.scss";
 
 
-             
+
+            
