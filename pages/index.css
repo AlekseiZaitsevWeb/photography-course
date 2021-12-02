@@ -12,6 +12,12 @@
   text-rendering: optimizeLegibility;
 }
 
+section,
+div,
+ul, li, p, h1, h2, h3, h4, img, article, figure, header, span {
+  outline: 1px solid blue;
+}
+
 .page {
   background-color: #fff;
 }
@@ -37,7 +43,7 @@
 }
 
 .button_type_menu-open {
-  background-image: url(/images/btn-menu-open.svg);
+  background-image: url(../images/btn-menu-open.svg);
   width: 32px;
   height: 23px;
 }
@@ -50,7 +56,7 @@
 .button_type_menu-close {
   width: 39px;
   height: 39px;
-  background-image: url(/images/btn-menu-close.svg);
+  background-image: url(../images/btn-menu-close.svg);
   background-position: top -4px right -6px;
   background-repeat: no-repeat;
 }
@@ -897,27 +903,38 @@
 
 .action {
   background-color: #DF2626;
+  padding: 20px;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 768px) {
+  .action {
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .action {
+    padding: 50px;
+  }
 }
 
 .action__container {
   margin: 0 auto;
   background-color: #DF2626;
-  max-width: 1440px;
-  min-width: 320px;
-  padding: 20px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  max-width: 1440px;
+  min-width: 320px;
 }
 @media screen and (min-width: 768px) {
   .action__container {
-    padding: 40px;
+    width: 688px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .action__container {
-    padding: 50px;
-    padding-bottom: 36px;
+    width: 100%;
   }
 }
 
@@ -988,7 +1005,7 @@
     left: 0;
     width: 129px;
     height: 95px;
-    background-image: url("/images/arrow.svg");
+    background-image: url(../images/arrow.svg);
     background-repeat: no-repeat;
     background-size: 129px 95px;
   }
@@ -1077,7 +1094,13 @@
   background-color: #DF2626;
 }
 
-.footer__container {
+.footer__text {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #fff;
   margin: 0 auto;
   background-color: #DF2626;
   max-width: 1440px;
@@ -1087,30 +1110,17 @@
   display: flex;
 }
 @media screen and (min-width: 768px) {
-  .footer__container {
-    padding: 40px;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .footer__container {
-    padding: 50px;
-  }
-}
-
-.footer__text {
-  margin: 0;
-  padding: 0;
-  font-size: 12px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #fff;
-}
-@media screen and (min-width: 768px) {
   .footer__text {
+    padding: 40px;
     font-size: 15px;
     line-height: 24px;
     font-weight: 700;
     color: #fff;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .footer__text {
+    padding: 50px;
   }
 }
 

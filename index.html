@@ -16,11 +16,13 @@
     <header class="header">
       <div class="header__container">
         <a href="/" class="header__logo-link"><img class="header__logo-image" src="./images/logo.svg" alt="Курс по фотографии"></a>
-        <ul class="header__links">
-          <li><a href="#composition" class="header__link">Композиция</a></li>
-          <li><a href="#camera" class="header__link">Камера</a></li>
-          <li><a href="#search-for-orders" class="header__link">Поиск заказов</a></li>
-        </ul>
+        <nav>
+          <ul class="header__links">
+            <li><a href="#composition" class="header__link">Композиция</a></li>
+            <li><a href="#camera" class="header__link">Камера</a></li>
+            <li><a href="#search-for-orders" class="header__link">Поиск заказов</a></li>
+          </ul>
+        </nav>
         <button class="button button_type_menu-open" type="button"></button>
         <button class="button button_type_menu-close disabled" type="button"></button>
       </div>
@@ -97,22 +99,18 @@
       <!-- action -->
       <section class="action" id="action">
         <div class="action__container">
-          <div class="action__content">
-            <span class="action__line"></span>
-            <h2 class="action__title">Записаться! Сейчас!</h2>
-            <form class="action__form" name="action" action="#" id="action-form">
-              <input type="email" name="email" id="email" class="action__input-text" placeholder="Ваша почта">
-              <button class="action__button" type="button" form="action-form" onclick="submitBtn()">Записаться!</button>
-            </form>
-          </div>
+          <span class="action__line"></span>
+          <h2 class="action__title">Записаться! Сейчас!</h2>
+          <form class="action__form" name="action" action="#" id="action-form">
+            <input type="email" name="email" id="email" class="action__input-text" placeholder="Ваша почта">
+            <button class="action__button" type="button" form="action-form" onclick="submitBtn()">Записаться!</button>
+          </form>
         </div>
       </section>
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="footer__container">
-        <p class="footer__text">2021 Photo-lessons.</p>
-      </div>
+      <p class="footer__text">2021 Photo-lessons.</p>
     </footer>
 
   </div>
