@@ -30,7 +30,7 @@
     <!-- main -->
     <main class="content">
       <!-- intro -->
-      <section class="section intro content__section">
+      <section class="section content__section intro">
         <h1 class="intro__title">Курс по фотографии</h1>
         <img class="intro__image" src="./images/coniferous-forest.jpg" alt="Хвойный лес">
         <p class="intro__text">Фотография в природных условиях, уроки по композиции и по пользованию камерой.</p>
@@ -53,10 +53,10 @@
       <section class="rules">
         <div class="rules__container">
           <ul class="rules__items">
-            <li class="rules__item"><p class="rules__item-text">Правило третей, при котором нужно распологать объекты на пересечениях.</p></li>
-            <li class="rules__item"><p class="rules__item-text">Простота: убирай всё лишнее и кадрируй!</p></li>
-            <li class="rules__item"><p class="rules__item-text">Равновесие: уравновесь пятна объекта и фона.</p></li>
-            <li class="rules__item"><p class="rules__item-text">3D глубина кадра: расположи объект позади и перед другими предметами.</p></li>
+            <li class="rules__item"><p>Правило третей, при котором нужно распологать объекты на пересечениях.</p></li>
+            <li class="rules__item"><p>Простота: убирай всё лишнее и кадрируй!</p></li>
+            <li class="rules__item"><p>Равновесие: уравновесь пятна объекта и фона.</p></li>
+            <li class="rules__item"><p>3D глубина кадра: расположи объект позади и перед другими предметами.</p></li>
           </ul>
         </div>
       </section>
@@ -99,11 +99,10 @@
       <!-- action -->
       <section class="action" id="action">
         <div class="action__container">
-          <span class="action__line"></span>
           <h2 class="action__title">Записаться! Сейчас!</h2>
           <form class="action__form" name="action" action="#" id="action-form">
-            <input type="email" name="email" id="email" class="action__input-text" placeholder="Ваша почта">
-            <button class="action__button" type="button" form="action-form" onclick="submitBtn()">Записаться!</button>
+            <input type="email" name="email" id="email" class="action__input-text" placeholder="Ваша почта" required>
+            <button class="action__button" type="submit" form="action-form">Записаться!</button>
           </form>
         </div>
       </section>

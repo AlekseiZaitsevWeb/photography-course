@@ -1,11 +1,14 @@
 .action {
   background-color: $color-warning;
-  padding: $section-padding-mobile;
   box-sizing: border-box;
+  padding: $section-padding-mobile;
+  min-width: $screen-mobile;
+  width: 100%;
 
   @media screen and (min-width: $screen-tablet) {
     padding: $section-padding-tablet;
   }
+
   @media screen and (min-width: $screen-desktop) {
     padding: $section-padding-desktop;
   }

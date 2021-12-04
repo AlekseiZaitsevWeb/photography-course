@@ -6,12 +6,32 @@
   justify-content: center;
   flex-direction: column;
   max-width: $screen-desktop;
-  min-width: $screen-mobile;
+
+  @media screen and (max-width: ($screen-tablet - 1px)) {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid $color-light-primary
+  }
 
   @media screen and (min-width: $screen-tablet) {
-    width: 688px;
+
   }
   @media screen and (min-width: $screen-desktop-tablet) {
-    width: 100%;
+
   }
 }
+
+
+
+// .action {
+//   background-color: $color-warning;
+//   padding: $section-padding-mobile;
+//   box-sizing: border-box;
+
+//   @media screen and (min-width: $screen-tablet) {
+//     padding: $section-padding-tablet;
+//   }
+//   @media screen and (min-width: $screen-desktop) {
+//     padding: $section-padding-desktop;
+//   }
+// }

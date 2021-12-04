@@ -11,6 +11,7 @@
     max-width: 688px;
     margin-bottom: 190px;
   }
+
   @media screen and (min-width: $screen-desktop-tablet) {
     @include text($title-action-font-size-desktop, $title-action-font-line-height-desktop, $title-action-text-color);
     margin-bottom: 120px;
@@ -28,6 +29,7 @@
       background-size: 129px 95px;
     }
   }
+
   @media screen and (min-width: $screen-desktop) {
     min-width: 624px;
   }
