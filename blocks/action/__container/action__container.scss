@@ -8,16 +8,9 @@
   max-width: $screen-desktop;
 
   @media screen and (max-width: ($screen-tablet - 1px)) {
-    margin-top: 20px;
+    margin-top: 18px;
     padding-top: 20px;
     border-top: 1px solid $color-light-primary
-  }
-
-  @media screen and (min-width: $screen-tablet) {
-
-  }
-  @media screen and (min-width: $screen-desktop-tablet) {
-
   }
 }
 

@@ -7,7 +7,7 @@
   @media screen and (max-width: $screen-mobile) {
     padding-top: 20px;
     margin-top: 20px;
-    border-top: 1px solid #000000;
+    border-top: 1px solid $color-dark-primary;
   }
   @media screen and (min-width: $screen-tablet) {
     @include text($text-chapter-font-size-tablet, $text-chapter-font-line-height-tablet);

@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   padding-top: 14px;
-  padding-bottom: 14px;
+  padding-bottom: 12px;
   border-bottom: 1px solid $color-dark-primary;
 
   &:first-child{
@@ -19,7 +19,7 @@
   @media screen and (min-width: $screen-tablet) {
     @include text($text-primary-font-size-tablet, $text-primary-font-line-height-tablet);
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 29px;
     &:first-child{
       padding-top: 0;
     }

@@ -1,3 +1,7 @@
 .section__chapter_color_light {
   color: $color-light-primary;
+  
+  @media screen and (max-width: $screen-mobile) {
+    border-top: 1px solid $color-light-primary;
+  }
 }

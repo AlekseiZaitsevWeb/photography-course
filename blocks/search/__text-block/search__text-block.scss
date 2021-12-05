@@ -1,5 +1,4 @@
 .search__text-block {
-  justify-self: end;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -9,5 +8,9 @@
     grid-column-start: 2;
     grid-row-start: 3;
     width: 380px;
+  }
+
+  @media screen and (min-width: $screen-desktop) {
+    justify-self: end;
   }
 }
