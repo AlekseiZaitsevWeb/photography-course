@@ -49,7 +49,6 @@ function closeMenu() {
 
 function changeBtnText() {
   btnAction.style.fontWeight = 500;
-  console.log(btnAction.style.font.weight);
   if(inpAction.value.length === 0) {
     btnAction.textContent = 'Записаться!';
   }
@@ -57,13 +56,6 @@ function changeBtnText() {
 
 function checkInputFocus(event){
   if(inpAction !== document.activeElement){
-    btnAction.style.fontWeight = 400;
-  }
-}
-
-function submitBtn() {
-  if(inpAction.value.length > 0 && (inpAction.value.indexOf('@') !== -1 && inpAction.value.indexOf('.') !== -1) && btnAction.textContent === 'Записаться!') {
-    btnAction.textContent = 'Спасибо!';
     btnAction.style.fontWeight = 400;
   }
 }

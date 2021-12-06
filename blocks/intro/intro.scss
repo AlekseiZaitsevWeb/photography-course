@@ -1,4 +1,16 @@
 .intro {
   background-color: $color-light-primary;
   padding-top: 14px;
+
+  @media screen and (min-width: $screen-tablet) {
+    padding-top: 40px;
+  }
+
+  @media screen and (min-width: $screen-tablet) {
+    padding-top: 40px;
+  }
+  
+  @media screen and (min-width: $screen-desktop) {
+    padding-top: 50px;
+  }
 }

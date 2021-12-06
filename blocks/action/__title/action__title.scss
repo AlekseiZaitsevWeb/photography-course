@@ -2,15 +2,16 @@
   @include reset();
   @include text($title-action-font-size-mobile, $title-action-font-line-height-mobile, $title-action-text-color);
   align-self: start;
-  margin-bottom: 200px;
+  margin-bottom: 210px;
   max-width: 280px;
   position: relative;
 
   @media screen and (min-width: $screen-tablet) {
     @include text($title-action-font-size-tablet, $title-action-font-line-height-tablet, $title-action-text-color);
     max-width: 688px;
-    margin-bottom: 190px;
+    margin-bottom: 200px;
   }
+
   @media screen and (min-width: $screen-desktop-tablet) {
     @include text($title-action-font-size-desktop, $title-action-font-line-height-desktop, $title-action-text-color);
     margin-bottom: 120px;
@@ -23,12 +24,14 @@
       left: 0;
       width: 129px;
       height: 95px;
-      background-image: url("/images/arrow.svg");
+      background-image: url(../images/arrow.svg);
       background-repeat: no-repeat;
       background-size: 129px 95px;
     }
   }
+
   @media screen and (min-width: $screen-desktop) {
     min-width: 624px;
+    margin-bottom: 118px;
   }
 }

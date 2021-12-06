@@ -1,8 +1,8 @@
 @import "../vendor/normalize.css";
 @import "../vendor/fonts.css";
 
-@import "../blocks/variables.scss";
-@import "../blocks/mixins.scss";
+@import "../vendor/variables.scss";
+@import "../vendor/mixins.scss";
 
 @import "../blocks/root/root.scss";
 @import "../blocks/page/page.scss";
@@ -27,11 +27,6 @@
 
 @import "../blocks/content/content.scss";
 @import "../blocks/content/__section/content__section.scss";
-
-@import "../blocks/intro/intro.scss";
-@import "../blocks/intro/__title/intro__title.scss";
-@import "../blocks/intro/__image/intro__image.scss";
-@import "../blocks/intro/__text/intro__text.scss";
 
 @import "../blocks/composition/composition.scss";
 @import "../blocks/composition/__container/composition__container.scss";
@@ -71,15 +66,12 @@
 
 @import "../blocks/action/action.scss";
 @import "../blocks/action/__container/action__container.scss";
-@import "../blocks/action/__content/action__content.scss";
-@import "../blocks/action/__line/action__line.scss";
 @import "../blocks/action/__title/action__title.scss";
 @import "../blocks/action/__form/action__form.scss";
 @import "../blocks/action/__input-text/action__input-text.scss";
 @import "../blocks/action/__button/action__button.scss";
 
 @import "../blocks/footer/footer.scss";
-@import "../blocks/footer/__container/footer__container.scss";
 @import "../blocks/footer/__text/footer__text.scss";
 
 @import "../blocks/section/section.scss";
@@ -89,6 +81,9 @@
 @import "../blocks/section/__chapter/section__chapter.scss";
 @import "../blocks/section/__chapter/_color/section__chapter_color_light.scss";
 
-       
+@import "../blocks/intro/intro.scss";
+@import "../blocks/intro/__title/intro__title.scss";
+@import "../blocks/intro/__image/intro__image.scss";
+@import "../blocks/intro/__text/intro__text.scss";
 
-
+                                  

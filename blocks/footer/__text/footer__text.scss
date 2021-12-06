@@ -1,8 +1,19 @@
 .footer__text {
   @include reset();
   @include text($text-footer-font-size-mobile, $text-footer-font-line-height-mobile, $text-footer-text-color, $text-footer-font-weight);
+  margin: 0 auto;
+  background-color: $color-warning;
+  max-width: $screen-desktop;
+  min-width: $screen-mobile;
+  padding: $section-padding-mobile;
+  box-sizing: border-box;
+  display: flex;
 
   @media screen and (min-width: $screen-tablet) {
+    padding: $section-padding-tablet;
     @include text($text-footer-font-size-tablet, $text-footer-font-line-height-tablet, $text-footer-text-color, $text-footer-font-weight);
+  }
+  @media screen and (min-width: $screen-desktop) {
+    padding: $section-padding-desktop;
   }
 }

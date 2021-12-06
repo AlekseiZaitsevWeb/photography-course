@@ -15,7 +15,11 @@
   @media screen and (min-width: $screen-tablet) {
     padding-top: 60px;
     padding-bottom: 60px;
+    &:first-child {
+      padding-bottom: 60px;
+    }
     &:last-child {
+      padding-top: 60px;
       padding-bottom: 0;
     }
   }
